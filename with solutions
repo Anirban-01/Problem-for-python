@@ -1,0 +1,27 @@
+# can you compute all multiples of 3, 5
+# that are less than 100?
+
+class LIST:
+    def my_list1(self):
+        list1 = list(range(0, 100))
+        total1 = 0
+
+        for i in list1:
+            if i % 3 == 0:
+                total1 = total1 + i
+                print(i)
+
+    def my_list2(self):
+        list2 = list(range(0, 100))
+        total2 = 0
+
+        for j in list2:
+            if j % 5 == 0:
+                total2 = total2 + j
+                print(j)
+
+
+list_details = LIST()
+
+list_details.my_list1()
+list_details.my_list2()
